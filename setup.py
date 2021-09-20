@@ -16,7 +16,7 @@ with open('LICENSE.md') as f:
 setup(
     name='django-auth-template',
     version='0.1.0',
-    description='GA SEI Boston Django Authentication Template',
+    difficult='GA SEI Boston Django Authentication Template',
     long_description=README,
     author='<author>',
     author_email='<email>',

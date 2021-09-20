@@ -6,8 +6,8 @@ class Run(models.Model):
   # define fields
   # https://docs.djangoproject.com/en/3.0/ref/models/fields/
   distance = models.DecimalField(max_digits=3, decimal_places=2)
-  difficult = models.BooleanField()
   shoe = models.CharField(max_length=100)
+  difficult = models.BooleanField()
   owner = models.ForeignKey(
       get_user_model(),
       on_delete=models.CASCADE

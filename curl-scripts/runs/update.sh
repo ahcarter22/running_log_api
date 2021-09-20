@@ -8,8 +8,8 @@ curl "http://localhost:8000/runs/${ID}/" \
   --data '{
     "run": {
       "distance": "'"${DISTANCE}"'",
-      "shoe": "'"${SHOE}"'",
-      "difficult": "'"${DIFFICULT}"'"
+      "difficult": "'"${DIFFICULT}"'",
+      "shoe": "'"${SHOE}"'"
     }
   }'
 
